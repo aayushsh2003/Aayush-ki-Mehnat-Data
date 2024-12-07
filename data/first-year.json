@@ -1,0 +1,170 @@
+{
+    "data":"Software Development | Algorithms | Data Structures | Computer Networks | Operating Systems",
+    "subject": [
+      {
+        "name": "Programming Fundamentals",
+        "description": "Introduction to programming concepts.",
+        "resources": {
+          "notes": [
+            {
+              "link": "/resources/notes/programming-fundamentals.pdf",
+              "description": "Comprehensive notes covering all topics in the syllabus."
+            }
+          ],
+          "book": [
+            {
+              "title": "Introduction to Programming with Python",
+              "author": "John Doe",
+              "link": "https://www.example.com/book"
+            }
+          ],
+          "videos": [
+            {
+              "title": "Introduction to Programming",
+              "link": "https://www.youtube.com/watch?v=example1",
+              "description": "A beginner's guide to programming concepts."
+            },
+            {
+              "title": "Data Types and Variables",
+              "link": "https://www.youtube.com/watch?v=example2",
+              "description": "Understanding data types and variables in programming."
+            }
+          ],
+          "assignments": [
+            {
+              "title": "Assignment 1: Basic Programming",
+              "link": "/resources/assignments/assignment1.pdf"
+            },
+            {
+              "title": "Assignment 2: Functions and Procedures",
+              "link": "/resources/assignments/assignment2.pdf"
+            }
+          ],
+          "practicals": [
+            {
+              "title": "Lab Manual for Programming Fundamentals",
+              "link": "/resources/labs/programming-fundamentals-lab.pdf",
+              "description": "Lab exercises to complement the theoretical knowledge."
+            }
+          ],
+          "previousYearPapers": [
+            {
+              "year": "2022",
+              "link": "/resources/exams/programming-fundamentals-2022.pdf"
+            },
+            {
+              "year": "2021",
+              "link": "/resources/exams/programming-fundamentals-2021.pdf"
+            }
+          ],
+          "nkBookMaterials": [
+            {
+              "title": "NK Book: Programming Basics",
+              "link": "/resources/nkbooks/programming-basics.pdf",
+              "description": "Supplementary material from NK Book for additional practice."
+            },
+            {
+              "title": "NK Book: Advanced Programming Concepts",
+              "link": "/resources/nkbooks/advanced-programming.pdf",
+              "description": "Advanced topics and exercises from NK Book."
+            }
+          ],
+          "codeResources": [
+            {
+              "title": "Sample Code for Assignment 1",
+              "link": "/resources/code/assignment1-sample.py",
+              "description": "Sample code demonstrating basic programming concepts."
+            },
+            {
+              "title": "Code Snippets for Functions",
+              "link": "/resources/code/functions-snippets.py",
+              "description": "Code snippets illustrating the use of functions in Python."
+            }
+          ]
+        }
+      },
+      {
+        "name": "Programming",
+        "description": "Introduction to programming concepts.",
+        "resources": {
+          "notes": [
+            {
+              "link": "/resources/notes/programming-fundamentals.pdf",
+              "description": "Comprehensive notes covering all topics in the syllabus."
+            }
+          ],
+          "book": [
+            {
+              "title": "Introduction to Programming with Python",
+              "author": "John Doe",
+              "link": "https://www.example.com/book"
+            }
+          ],
+          "videos": [
+            {
+              "title": "Introduction to Programming",
+              "link": "https://www.youtube.com/watch?v=example1",
+              "description": "A beginner's guide to programming concepts."
+            },
+            {
+              "title": "Data Types and Variables",
+              "link": "https://www.youtube.com/watch?v=example2",
+              "description": "Understanding data types and variables in programming."
+            }
+          ],
+          "assignments": [
+            {
+              "title": "Assignment 1: Basic Programming",
+              "link": "/resources/assignments/assignment1.pdf"
+            },
+            {
+              "title": "Assignment 2: Functions and Procedures",
+              "link": "/resources/assignments/assignment2.pdf"
+            }
+          ],
+          "practicals": [
+            {
+              "title": "Lab Manual for Programming Fundamentals",
+              "link": "/resources/labs/programming-fundamentals-lab.pdf",
+              "description": "Lab exercises to complement the theoretical knowledge."
+            }
+          ],
+          "previousYearPapers": [
+            {
+              "year": "2022",
+              "link": "/resources/exams/programming-fundamentals-2022.pdf"
+            },
+            {
+              "year": "2021",
+              "link": "/resources/exams/programming-fundamentals-2021.pdf"
+            }
+          ],
+          "nkBookMaterials": [
+            {
+              "title": "NK Book: Programming Basics",
+              "link": "/resources/nkbooks/programming-basics.pdf",
+              "description": "Supplementary material from NK Book for additional practice."
+            },
+            {
+              "title": "NK Book: Advanced Programming Concepts",
+              "link": "/resources/nkbooks/advanced-programming.pdf",
+              "description": "Advanced topics and exercises from NK Book."
+            }
+          ],
+          "codeResources": [
+            {
+              "title": "Sample Code for Assignment 1",
+              "link": "/resources/code/assignment1-sample.py",
+              "description": "Sample code demonstrating basic programming concepts."
+            },
+            {
+              "title": "Code Snippets for Functions",
+              "link": "/resources/code/functions-snippets.py",
+              "description": "Code snippets illustrating the use of functions in Python."
+            }
+          ]
+        }
+      }
+
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "informationTechnology": {
+      "data":"Software Development | Algorithms | Data Structures | Computer Networks | Operating Systems",
+      "secondYear": {
+        "subjects": [
+          {
+            "name": "Data Structures",
+            "resources": {
+              "notes": [
+                {
+                  "link": "/resources/notes/data-structures.pdf",
+                  "description": "Comprehensive notes on data structures."
+                }
+              ],
+              "book": [
+                {
+                  "title": "Data Structures and Algorithms in Python",
+                  "author": "Michael T. Goodrich",
+                  "link": "https://www.example.com/book1"
+                }
+              ],
+              "assignments": [
+                {
+                  "title": "Assignment 1: Linked Lists",
+                  "link": "/resources/assignments/assignment1.pdf"
+                }
+              ],
+              "practicals": [
+                {
+                  "title": "Lab Manual for Data Structures",
+                  "link": "/resources/labs/data-structures-lab.pdf",
+                  "description": "Lab exercises for data structures."
+                }
+              ],
+              "previousYearPapers": [
+                {
+                  "year": "2022",
+                  "link": "/resources/exams/data-structures-2022.pdf"
+                }
+              ],
+              "videos": [
+                {
+                  "title": "Introduction to Data Structures",
+                  "link": "https://www.youtube.com/watch?v=example1"
+                }
+              ]
+            }
+          },
+          {
+            "name": "Database Management Systems",
+            "resources": {
+              "notes": [
+                {
+                  "link": "/resources/notes/dbms.pdf",
+                  "description": "Comprehensive notes on DBMS."
+                }
+              ],
+              "book": [
+                {
+                  "title": "Database System Concepts",
+                  "author": "Abraham Silberschatz",
+                  "link": "https://www.example.com/book2"
+                }
+              ],
+              "assignments": [
+                {
+                  "title": "Assignment 1: SQL Queries",
+                  "link": "/resources/assignments/assignment2.pdf"
+                }
+              ],
+              "practicals": [
+                {
+                  "title": "Lab Manual for DBMS",
+                  "link": "/resources/labs/dbms-lab.pdf",
+                  "description": "Lab exercises for DBMS."
+                }
+              ],
+              "previousYearPapers": [
+                {
+                  "year": "2022",
+                  "link": "/resources/exams/dbms-2022.pdf"
+                }
+              ],
+              "videos": [
+                {
+                  "title": "Introduction to DBMS",
+                  "link": "https://www.youtube.com/watch?v=example2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "thirdYear": {
+        "subjects": [
+            {
+            "name": "Operating Systems",
+            "resources": {
+                "notes": [
+                {
+                    "link": "/resources/notes/operating-systems.pdf",
+                    "description": "Comprehensive notes on operating systems."
+                }
+                ],
+                "book": [
+                {
+                    "title": "Operating System Concepts",
+                    "author": "Abraham Silberschatz",
+                    "link": "https://www.example.com/book3"
+                }
+                ],
+                "assignments": [
+                {
+                    "title": "Assignment 1: Process Management",
+                    "link": "/resources/assignments/assignment3.pdf"
+                }
+                ],
+                "practicals": [
+                {
+                    "title": "Lab Manual for Operating Systems",
+                    "link": "/resources/labs/os-lab.pdf",
+                    "description": "Lab exercises for operating systems."
+                }
+                ],
+                "previousYearPapers": [
+                {
+                    "year": "2022",
+                    "link": "/resources/exams/os-2022.pdf"
+                }
+                ],
+                "videos": [
+                {
+                    "title": "Introduction to Operating Systems",
+                    "link": "https://www.youtube.com/watch?v=example3"
+                }
+                ],
+                "codeExamples": {
+                "processManagement": {
+                    "description": "Simulates process management using threading.",
+                    "code": "import threading\nimport time\nimport random\n\nclass Process(threading.Thread):\n    def __init__(self, process_id):\n        threading.Thread.__init__(self)\n        self.process_id = process_id\n\n    def run(self):\n        print(f\"Process {self.process_id} is starting.\")\n        time.sleep(random.randint(1, 3))  # Simulate process execution time\n        print(f\"Process {self.process_id} is completed.\")\n\nif __name__ == \"__main__\":\n    processes = []\n    for i in range(5):  # Create 5 processes\n        process = Process(i)\n        processes.append(process)\n        process.start()\n\n    for process in processes:\n        process.join()  # Wait for all processes to complete\n    print(\"All processes have completed.\")"
+                }
+                }
+            }
+            },
+            {
+            "name": "Software Engineering",
+            "resources": {
+                "notes": [
+                {
+                    "link": "/resources/notes/software-engineering.pdf",
+                    "description": "Comprehensive notes on software engineering."
+                }
+                ],
+                "book": [
+                {
+                    "title": "Software Engineering",
+                    "author": "Ian Sommerville",
+                    "link": "https://www.example.com/book4"
+                }
+                ],
+                "assignments": [
+                {
+                    "title": "Assignment 1: Software Development Life Cycle",
+                    "link": "/resources/assignments/assignment4.pdf"
+                }
+                ],
+                "practicals": [
+                {
+                    "title": "Lab Manual for Software Engineering",
+                    "link": "/resources/labs/software-engineering",
+                    "description": "Lab exercises for software engineering."
+                }
+                ],
+                "codeExamples": {
+                "taskManagement": {
+                    "description": "Simple task management system.",
+                    "code": "class Task:\n    def __init__(self, title, description):\n        self.title = title\n        self.description = description\n\nclass TaskManager:\n    def __init__(self):\n        self.tasks = []\n\n    def add_task(self, title, description):\n        task = Task(title, description)\n        self.tasks.append(task)\n        print(f\"Task '{title}' added.\")\n\n    def view_tasks(self):\n        if not self.tasks:\n            print(\"No tasks available.\")\n            return\n        for i, task in enumerate(self.tasks, start=1):\n            print(f\"{i}. {task.title}: {task.description}\")\n\nif __name__ == \"__main__\":\n    task_manager = TaskManager()\n    task_manager.add_task(\"Complete Project\", \"Finish the software engineering project by next week.\")\n    task_manager.add_task(\"Study for Exams\", \"Review notes and practice problems for upcoming exams.\")\n    \n    print(\"\\nCurrent Tasks:\")\n    task_manager.view_tasks()"
+                }
+                }
+            }
+            }
+        ]
+    },
+       "fourthYear": {
+            "subjects": [
+                {
+                "name": "Operating Systems",
+                "resources": {
+                    "notes": [
+                    {
+                        "link": "/resources/notes/operating-systems.pdf",
+                        "description": "Comprehensive notes on operating systems."
+                    }
+                    ],
+                    "book": [
+                    {
+                        "title": "Operating System Concepts",
+                        "author": "Abraham Silberschatz",
+                        "link": "https://www.example.com/book3"
+                    }
+                    ],
+                    "assignments": [
+                    {
+                        "title": "Assignment 1: Process Management",
+                        "link": "/resources/assignments/assignment3.pdf"
+                    }
+                    ],
+                    "practicals": [
+                    {
+                        "title": "Lab Manual for Operating Systems",
+                        "link": "/resources/labs/os-lab.pdf",
+                        "description": "Lab exercises for operating systems."
+                    }
+                    ],
+                    "previousYearPapers": [
+                    {
+                        "year": "2022",
+                        "link": "/resources/exams/os-2022.pdf"
+                    }
+                    ],
+                    "videos": [
+                    {
+                        "title": "Introduction to Operating Systems",
+                        "link": "https://www.youtube.com/watch?v=example3"
+                    }
+                    ],
+                    "codeExamples": {
+                    "processManagement": {
+                        "description": "Simulates process management using threading.",
+                        "code": "import threading\nimport time\nimport random\n\nclass Process(threading.Thread):\n    def __init__(self, process_id):\n        threading.Thread.__init__(self)\n        self.process_id = process_id\n\n    def run(self):\n        print(f\"Process {self.process_id} is starting.\")\n        time.sleep(random.randint(1, 3))  # Simulate process execution time\n        print(f\"Process {self.process_id} is completed.\")\n\nif __name__ == \"__main__\":\n    processes = []\n    for i in range(5):  # Create 5 processes\n        process = Process(i)\n        processes.append(process)\n        process.start()\n\n    for process in processes:\n        process.join()  # Wait for all processes to complete\n    print(\"All processes have completed.\")"
+                    }
+                    }
+                }
+                },
+                {
+                "name": "Software Engineering",
+                "resources": {
+                    "notes": [
+                    {
+                        "link": "/resources/notes/software-engineering.pdf",
+                        "description": "Comprehensive notes on software engineering."
+                    }
+                    ],
+                    "book": [
+                    {
+                        "title": "Software Engineering",
+                        "author": "Ian Sommerville",
+                        "link": "https://www.example.com/book4"
+                    }
+                    ],
+                    "assignments": [
+                    {
+                        "title": "Assignment 1: Software Development Life Cycle",
+                        "link": "/resources/assignments/assignment4.pdf"
+                    }
+                    ],
+                    "practicals": [
+                    {
+                        "title": "Lab Manual for Software Engineering",
+                        "link": "/resources/labs/software-engineering",
+                        "description": "Lab exercises for software engineering."
+                    }
+                    ],
+                    "codeExamples": {
+                    "taskManagement": {
+                        "description": "Simple task management system.",
+                        "code": "class Task:\n    def __init__(self, title, description):\n        self.title = title\n        self.description = description\n\nclass TaskManager:\n    def __init__(self):\n        self.tasks = []\n\n    def add_task(self, title, description):\n        task = Task(title, description)\n        self.tasks.append(task)\n        print(f\"Task '{title}' added.\")\n\n    def view_tasks(self):\n        if not self.tasks:\n            print(\"No tasks available.\")\n            return\n        for i, task in enumerate(self.tasks, start=1):\n            print(f\"{i}. {task.title}: {task.description}\")\n\nif __name__ == \"__main__\":\n    task_manager = TaskManager()\n    task_manager.add_task(\"Complete Project\", \"Finish the software engineering project by next week.\")\n    task_manager.add_task(\"Study for Exams\", \"Review notes and practice problems for upcoming exams.\")\n    \n    print(\"\\nCurrent Tasks:\")\n    task_manager.view_tasks()"
+                    }
+                    }
+                }
+                }
+            ]
+    }
+}
+}
