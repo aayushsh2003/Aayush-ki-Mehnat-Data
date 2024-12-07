@@ -10,9 +10,18 @@
                 {
                   "link": "/resources/notes/data-structures.pdf",
                   "description": "Comprehensive notes on data structures."
+                },
+                {
+                  "link": "/resources/notes/data-structures.pdf",
+                  "description": "Comprehensive notes on data structures."
                 }
               ],
               "book": [
+                {
+                  "title": "Data Structures and Algorithms in Python",
+                  "author": "Michael T. Goodrich",
+                  "link": "https://www.example.com/book1"
+                },
                 {
                   "title": "Data Structures and Algorithms in Python",
                   "author": "Michael T. Goodrich",
@@ -23,9 +32,18 @@
                 {
                   "title": "Assignment 1: Linked Lists",
                   "link": "/resources/assignments/assignment1.pdf"
+                },
+                {
+                  "title": "Assignment 1: Linked Lists",
+                  "link": "/resources/assignments/assignment1.pdf"
                 }
               ],
               "practicals": [
+                {
+                  "title": "Lab Manual for Data Structures",
+                  "link": "/resources/labs/data-structures-lab.pdf",
+                  "description": "Lab exercises for data structures."
+                },
                 {
                   "title": "Lab Manual for Data Structures",
                   "link": "/resources/labs/data-structures-lab.pdf",
@@ -39,6 +57,14 @@
                 }
               ],
               "videos": [
+                {
+                  "title": "Introduction to Data Structures",
+                  "link": "https://www.youtube.com/watch?v=example1"
+                },
+                {
+                  "title": "Introduction to Data Structures",
+                  "link": "https://www.youtube.com/watch?v=example1"
+                },
                 {
                   "title": "Introduction to Data Structures",
                   "link": "https://www.youtube.com/watch?v=example1"
